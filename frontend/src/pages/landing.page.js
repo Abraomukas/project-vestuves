@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from '../components/card.component';
 import Carousel from '../components/carousel.component';
 
 function LandingPage() {
@@ -6,13 +7,22 @@ function LandingPage() {
 		<div>
 			<section>
 				{/* Carousel */}
-				<section>
-					<div
-						className='d-flex justify-content-center'
-						style={{ marginTop: '7rem', marginBottom: '7rem' }}>
-						<Carousel />
+				<div
+					className='d-flex justify-content-center'
+					style={{ marginTop: '5rem', marginBottom: '3rem' }}>
+					<Carousel />
+				</div>
+			</section>
+			<section>{/* Text */}</section>
+			<section>
+				{/* Buttons */}
+				<div className='container'>
+					<div className='d-flex justify-content-around mb-3'>
+						<Card caption='Lithuania for newbies' />
+						<Card caption='How to get there' />
+						<Card caption='Schedule' />
 					</div>
-				</section>
+				</div>
 			</section>
 		</div>
 	);
