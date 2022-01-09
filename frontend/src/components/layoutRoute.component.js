@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 
-import Navbar from './navbar..component';
+import Navbar from './navbar.component';
 
 function LayoutRoute(props) {
 	return (
