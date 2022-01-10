@@ -5,9 +5,9 @@ import i18next from 'i18next';
 import { Translation } from 'react-i18next';
 
 const titles = [
-	{ name: 'Lithuanian for newbies', path: '/' },
-	{ name: 'How to get there', path: '/' },
-	{ name: 'Schedule', path: '/' },
+	{ name: 'Lithuanian for newbies', path: '/intro' },
+	{ name: 'How to get there', path: '/location' },
+	{ name: 'Schedule', path: '/schedule' },
 ];
 const languages = [
 	{ name: 'English', country_code: 'gb' },
@@ -79,10 +79,6 @@ function Navbar() {
 							})}
 						</ul>
 					</div>
-					{/* Login */}
-					<Link className='btn btn-outline-light' to='/' role='button'>
-						LOGIN
-					</Link>
 				</div>
 			</nav>
 		</header>
