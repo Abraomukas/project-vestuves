@@ -18,9 +18,9 @@ function LandingPage() {
 				{/* Buttons */}
 				<div className='container'>
 					<div className='d-flex justify-content-around mb-3'>
-						<Card caption='Lithuania for newbies' />
-						<Card caption='How to get there' />
-						<Card caption='Schedule' />
+						<Card caption='Lithuania for newbies' path='/intro' />
+						<Card caption='How to get there' path='/location' />
+						<Card caption='Schedule' path='/schedule' />
 					</div>
 				</div>
 			</section>

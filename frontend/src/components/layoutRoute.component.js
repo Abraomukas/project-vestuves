@@ -7,7 +7,11 @@ function LayoutRoute(props) {
 	return (
 		<div>
 			<Navbar />
-			<Route path={props.path} component={props.component} />
+			<Route
+				path={props.path}
+				exact={props.exact}
+				component={props.component}
+			/>
 		</div>
 	);
 }
