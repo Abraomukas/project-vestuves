@@ -26,7 +26,11 @@ function CeremonyPage() {
 						and secure parking lot).
 					</p>
 					<p className='fs-3'>
-						To RSVP please fill in <a href=''>this form</a>.
+						To RSVP please fill in{' '}
+						<a href='https://docs.google.com/forms/d/e/1FAIpQLSdGa2gYgbBybRJuZl6P_CpFquoCUg824WvNR_IXf5dvrbJ0tA/viewform?vc=0&c=0&w=1&flr=0'>
+							this form
+						</a>
+						.
 					</p>
 					<p className='fs-3'>
 						Aaaaand <strong>PLEASE RSVP BEFORE MAY 6</strong>, or bring a chair

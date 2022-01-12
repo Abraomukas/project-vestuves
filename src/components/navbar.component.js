@@ -6,8 +6,8 @@ import { Translation } from 'react-i18next';
 
 const titles = [
 	{ name: 'The ceremony', path: '/ceremony' },
-	{ name: 'How to get there', path: '/location' },
 	{ name: 'Lithuania for newbies', path: '/lietuva-for-newbies' },
+	{ name: 'Moving around', path: '/moving' },
 ];
 const languages = [
 	{ name: 'English', country_code: 'gb' },
